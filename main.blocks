@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Y=nO}_t,ND?KK%aYG,y!">sprite</variable></variables><block type="device_button_event" id="$/Q6_!p_]c$|s:KK^wWP" x="0" y="0"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_print_message" id="0nS/#MjX%#}2z_YCl{7,"><value name="text"><shadow type="text" id="/8oxL3Y-gZ;?~b.~~b3M"><field name="TEXT">Farmacias Chanquete</field></shadow></value><next><block type="controls_repeat_ext" id="+z[6NmuLx#1+_F7yqFfm"><value name="TIMES"><shadow type="math_whole_number" id="q5@{KJw(73Jz6R+^q+`-"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="i2Jb2Jy|QEj2X:~l{ay="><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # # # # # 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="bd6YAgnvQT$2eXlx*{k%"><value name="pause"><shadow type="timePicker" id="X1!R[L3KJ}%dqP)-[i7`"><field name="ms">50</field></shadow></value><next><block type="device_show_leds" id="TcyuEZ,9#Rde/Drp~E2I"><field name="LEDS">`
+        . . . # . 
+        # # . # . 
+        . . # . . 
+        . # . # # 
+        . # . . .
+        `</field><next><block type="device_pause" id="_sVCF~k#x77o6f+v24+_"><value name="pause"><shadow type="timePicker" id="BxSB19IZ:8EwJEkE!VF1"><field name="ms">10</field></shadow></value><next><block type="device_show_leds" id="Dv.0*hdkP]Lv{cbjOtl("><field name="LEDS">`
+        . # . . . 
+        . # . # # 
+        . . # . . 
+        # # . # . 
+        . . . # .
+        `</field><next><block type="device_pause" id=".orb=BzJ-f;Ciu{L)RQS"><value name="pause"><shadow type="timePicker" id="h/_7*]s!?/-nyS2W/ILY"><field name="ms">10</field></shadow></value><next><block type="device_show_leds" id="V^4zOMObTl}U.u{TpNOS"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # # # # # 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="gzMQ1Eq1^~r8+7en6-_y"><value name="pause"><shadow type="timePicker" id="`p{hD_g?kJch%uE[AZ8?"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="R,}#:]Q_D0MiWKf.0c(?"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # # # . 
+        . . # . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement><next><block type="device_clear_display" id="i`vJeCCO,L$F-GvA^!y)"><next><block type="device_pause" id="KS}FjLzb^O5CpJq,%UH4"><value name="pause"><shadow type="timePicker" id="#qDgRn-}bziF/ku)eAI{"><field name="ms">100</field></shadow></value><next><block type="device_print_message" id="U-NL$g;gY6VE%pH$QE-U"><value name="text"><shadow type="text" id="=HKT^,Ul-^Ge|2uquF7!"><field name="TEXT">24H</field></shadow></value><next><block type="device_pause" id="26O7v56uXOa6:JoVOz;X"><value name="pause"><shadow type="timePicker" id="dvOtYPx@TzZr2E}P8oe_"><field name="ms">100</field></shadow></value><next><block type="device_print_message" id="}{;yqP9[j9^dgp8`6ZmP"><value name="text"><shadow type="text"><field name="TEXT">24H</field></shadow><block type="device_temperature" id="R{tXGv[_*Z6{[ZIK#=ME"></block></value><next><block type="device_print_message" id="/qeD4[J?H{~17Mi`{0sB"><value name="text"><shadow type="text" id="xjLs|~o$[NKmrsJKRvw1"><field name="TEXT">ºC</field></shadow></value><next><block type="device_pause" id="ggvZ9Cv-+:3cuAxFE]uQ"><value name="pause"><shadow type="timePicker" id="Cfdy_+s$S.,w{ar7Ys2L"><field name="ms">1000</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_gesture_event" id="H*^E})+@$q*-lqZL/9Ze" x="344" y="-9"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_print_message" id="a;oX([amHh7_+vi2~jwa"><value name="text"><shadow type="text"><field name="TEXT">Farmacias Chanquete</field></shadow><block type="device_temperature" id="q`geNIlBuWUusIV|Lnri"></block></value><next><block type="device_print_message" id="W2!]LFLI7W7nvq/~vyR;"><value name="text"><shadow type="text" id=":Zz#]bYMkb1y]Y@`t!3="><field name="TEXT">ºC</field></shadow></value></block></next></block></statement></block><block type="device_forever" id="RRq#$Yl;8_:p13^Ne1k0" x="343" y="183"></block><block type="pxt-on-start" id="OvG%LJb7~AY]t1,,1lWZ" x="336" y="328"></block><block type="device_button_event" id="ms}IrB^},}AD*I-|(/)=" x="329" y="449"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_print_message" id="M]v?_u9?R^:G!Y9X8dw2"><value name="text"><shadow type="text"><field name="TEXT">24H</field></shadow><block type="device_random" id="Y?tr*V1+wL*lbt8(d;j!"><value name="min"><shadow type="math_number" id="QYMGkY}`Ac.F!q5fk=u*"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="?7`v=wEUG$_SC[^x,)!M"><field name="NUM">1000</field></shadow></value></block></value></block></statement></block><block type="device_button_event" id="-AB=tg;La|cKoKuGM]/Q" x="324" y="605"><field name="NAME">Button.B</field></block></xml>
